@@ -385,6 +385,27 @@ html{scroll-behavior: smooth;}
 }
 
 
+.mais-sobre a{
+	text-decoration: none;
+}
+
+.mais-sobre h5{
+	cursor: pointer;
+	width: 100%;
+	padding: 9px 0 11px 0;
+	background-color: #28a745;
+	color: #041027;
+	text-align: center;
+	border: 1px solid #28a745;
+	border-radius: 33px;
+}
+
+.mais-sobre h5:hover{
+	background-color: transparent;
+	color: #28a745;
+}
+
+
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ 
 
 .footer{
@@ -646,7 +667,6 @@ html{scroll-behavior: smooth;}
 
 
 /*
-- Conteúdo
 - Curriculum
 */
 
