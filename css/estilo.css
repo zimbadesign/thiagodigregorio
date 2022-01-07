@@ -1,0 +1,653 @@
+/* 2021 FRONT PORTFÓLIO 
+ THIAGO DI GREGÓRIO */
+
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+/*body{zoom: 95%}*/
+
+
+
+/* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */
+
+.slider-principal{
+	background-image: url(../imgs/slider-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+	color: #fff;
+	margin-left: 44px;
+	font-size: 14px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+	color: #8bc53e;
+}
+
+.navbar img{
+	margin-right: 55px;
+}
+
+/* SLIDER */ /* SLIDER */ /* SLIDER */
+
+.conteudo-slide h1{
+	padding: 95px 0 13px 0;
+	color: #fff;
+
+}
+
+.conteudo-slide img{
+	padding: 27px 0 80px 0;
+}
+
+.segura div{
+	float: left;
+}
+
+.segura .primeira{
+	margin-right: 23px;
+}
+
+.segura a{
+	text-decoration: none;
+}
+
+.segura .primeira h4{
+	font-size: 16px;
+	color: #0f3172;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 33px;
+	border: 1px solid #fff;
+	padding: 11px 60px 13px 60px;
+}
+
+.segura .verde h4{
+	font-size: 16px;
+	color: #0b2558;
+	background-color: #88d91c;
+	text-align: center;
+	border-radius: 33px;
+	border: 1px solid #8bc53e;
+	padding: 11px 60px 13px 60px;
+}
+
+.segura .primeira h4:hover{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.segura .verde h4:hover{
+	background-color: transparent;
+	border: 1px solid #88d91c;
+	color: #88d91c;
+}
+
+
+
+/*.segura .primeira h4:hover{
+	background-color: #e7e0e0;
+	border: 1px solid #e7e0e0;
+}
+
+.segura .verde h4:hover{
+	background-color: #28a745;
+	border: 1px solid #28a745;
+}
+*/
+
+
+
+
+/* SOBRE MIM */ /* SOBRE MIM */ /* SOBRE MIM */ /* SOBRE MIM */ /* SOBRE MIM */
+
+
+.sobre-mim{
+	background-color: #041027;
+	color: #fff;
+}
+
+.sobre-mim h3{
+	margin: 0 0 18px 0;
+}
+
+.sobre-mim p{
+	margin: 10px 0 0 0;
+}
+
+.conteudo{
+	padding: 100px 0 100px 0;
+}
+
+.sobre-mim .atributos-1{
+	width: 45%;
+	float: left;
+}
+
+.sobre-mim .atributos-2{
+	width: 45%;
+	float: right;
+}
+
+
+
+
+/* STACKS */ /* STACKS */ /* STACKS */ /* STACKS */
+
+.stacks{
+	color: #041027;
+	padding: 50px 0 77px 0;
+}
+
+.stacks p{
+	padding: 0 0 33px 0;
+}
+
+
+
+/* STACKS - SECUNDÁRIO */
+
+.stacks-secundario{
+	color: #041027;
+	background-color: #c1c1c1;
+	padding: 44px 0 33px 0;
+}
+
+.stacks-secundario p{
+	padding: 0 0 13px 0;
+}
+
+
+
+
+
+/* PROJETOS WEB */ /* PROJETOS WEB */ /* PROJETOS WEB */ /* PROJETOS WEB */
+
+.web-html{
+	background-color: #1f2a45;
+	padding: 0 0 65px 0;
+	color: #fff;
+}
+
+.web-html .texto-introducao{
+	padding: 44px 0 55px 0;
+}
+
+.web-html hr{
+	border: 1px solid #283656;
+	margin: 77px 0 77px 0;
+}
+
+.web-html .logos-projetos img{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.web-html .estilizar-projetos p{
+	text-align: justify;
+}
+
+.web-html a{
+	text-decoration: none;
+}
+
+.web-html h5{
+	text-align: center;
+	color: #1f2a45;
+	background-color: #88d91c;
+	padding: 10px 0 13px 0;
+	margin: 23px 0 0 0;
+	border: 1px solid #88d91c;
+	border-radius: 33px;
+}
+
+.web-html h5:hover{
+	background-color: transparent;
+	color: #88d91c;
+}
+
+/* PROJETOS WORDPRESS */
+
+.web-wordpress{
+	background-color: #2b3958;
+	padding: 0 0 65px 0;
+	color: #fff;
+}
+
+.web-wordpress .texto-introducao{
+	padding: 44px 0 55px 0;
+}
+
+.web-wordpress hr{
+	border: 1px solid #364974;
+	margin: 77px 0 77px 0;
+}
+
+.web-wordpress .logos-projetos img{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.web-wordpress .estilizar-projetos p{
+	text-align: justify;
+}
+
+.web-wordpress a{
+	text-decoration: none;
+}
+
+.web-wordpress h5{
+	text-align: center;
+	color: #1f2a45;
+	background-color: #88d91c;
+	padding: 10px 0 13px 0;
+	margin: 23px 0 0 0;
+	border: 1px solid #88d91c;
+	border-radius: 33px;
+}
+
+.web-wordpress h5:hover{
+	background-color: transparent;
+	color: #88d91c;
+}
+
+
+
+/* PROJETOS GRAFICOS */ /* PROJETOS GRAFICOS */ /* PROJETOS GRAFICOS */ 
+
+.projetos-graficos{
+	padding: 44px 0 0 0;
+	color: #041027;
+}
+
+.projetos-graficos p{
+	padding: 0 0 23px 0;
+}
+
+.projetos-graficos .container-fluid .row .col-lg-4{
+	padding: 0;
+}
+
+
+
+
+/* ZIMBA */ /* ZIMBA */ /* ZIMBA */ /* ZIMBA */ /* ZIMBA */ /* ZIMBA */
+
+.zimba{
+	background-color: #8bc53e;
+	color: #041027;
+	padding: 39px 0 33px 0;
+}
+
+.zimba a{
+	text-decoration: none;
+}
+
+.zimba h5{
+	background-color: #041027;
+	color: #8bc53e;
+	font-weight: normal;
+	padding: 15px 0 18px 0;
+	border: 1px solid #041027;
+	border-radius: 33px;
+	margin: 5px 0 0 0;
+}
+
+.zimba h5:hover{
+	background-color: transparent;
+	color: #041027;
+}
+
+
+
+/* MAIS-SOBRE */ /* MAIS-SOBRE */ /* MAIS-SOBRE */ /* MAIS-SOBRE */ 
+
+.mais-sobre{
+	background-color: #041027;
+	color: #fff;
+	padding: 65px 0 65px 0;
+}
+
+.mais-sobre .block{
+	padding: 44px 0 0 0;
+}
+
+.mais-sobre p{
+	margin: 7px 0 0 0;
+}
+
+.mais-sobre .atributos-1{
+	width: 45%;
+	float: left;
+}
+
+.mais-sobre .atributos-2{
+	width: 45%;
+	float: right;
+}
+
+.mais-sobre .formulario{
+	padding: 33px 0 0 0;
+}
+
+.mais-sobre .formulario h3{
+	padding: 0 0 9px 0;
+}
+
+.mais-sobre form input{
+	background-color: transparent;
+	color: #fff;
+	width: 100%;
+	padding: 7px 0 7px 17px;
+	border: 1px solid #fff;
+	border-radius: 33px;
+	margin: 0 0 7px 0;
+}
+
+.mais-sobre form textarea{
+	background-color: transparent;
+	color: #fff;
+	width: 100%;
+	border: 1px solid #fff;
+	border-radius: 17px;
+	margin: 0 0 2px 0;
+	padding: 5px 0 0 17px;
+	resize: none;
+}
+
+.mais-sobre form button{
+	cursor: pointer;
+	width: 100%;
+	background-color: #28a745;
+	color: #041027;
+	font-weight: bold;
+	padding: 9px 0 9px 0;
+	border: 1px solid #28a745;
+	border-radius: 33px;
+}
+
+.mais-sobre form button:hover{
+	background-color: transparent;
+	color: #28a745;
+	border: 1px solid #28a745;
+}
+
+
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ 
+
+.footer{
+	background-color: #020a18;
+	padding: 44px 0 33px 0;
+}
+
+.despedida{
+	background-color: #01050c;
+	color: #fff;
+	padding: 14px 0 0 0;
+}
+
+
+
+
+
+
+
+/* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */
+/* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */
+/* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */
+/* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */
+/* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */ /* RESPONSIVO */
+
+
+@media(max-width: 991px){
+
+	.navbar .collapse .navbar-nav .nav-item .nav-link {
+		color: rgba(255,255,255,.5);
+		margin-left: 0;
+		font-size: 16px;
+	}
+
+	.conteudo-slide h1{
+		padding: 55px 0 13px 0;
+	}
+
+	.conteudo-slide img{
+    	padding: 55px 0 55px 0;
+    	text-align: center;
+	}
+
+	.sobre-mim h3 {
+    	margin: 44px 0 18px 0;
+	}
+
+	.sobre-mim .conteudo{
+		padding: 33px 0 77px 0;
+	}
+
+	.stacks img{
+		padding: 13px 0 13px 0;
+	}
+
+	.web-html .texto-introducao{
+		padding: 44px 0 88px 0;
+	}
+
+	.projetos-html .estilizar-projetos{
+		text-align: center;
+	}
+
+	.projetos-html .estilizar-projetos h4{
+		padding: 77px 0 13px 0;
+	}
+
+	.projetos-html .estilizar-projetos h5{
+		margin: 0 0 33px 0;
+	}
+
+	.projetos-html .estilizar-projetos img{
+		margin: 5px 0 5px 0;
+	}
+
+	.zimba{
+		padding: 39px 0 55px 0;
+	}
+
+	.zimba img{
+		display: none;
+	}
+
+	.mais-sobre img{
+		margin: 0 0 55px 0;
+	}
+
+	.mais-sobre .col-lg-3{
+		margin: 55px 0 0 0;
+	}
+
+	.mais-sobre .foto-perfil .foto{
+		display: none;
+	}
+
+}
+
+
+
+@media(max-width: 625px){
+
+	.divisor img{
+		margin: -3px 0 0 0;
+	}
+
+}
+
+
+
+@media(max-width: 580px){
+
+	.divisor img{
+		margin: -7px 0 0 0;
+	}
+
+	.sobre-mim .atributos-1{
+		width: 45%;
+		float: left;
+	}
+
+	.sobre-mim .atributos-2{
+		width: 45%;
+		float: right;
+	}
+
+	.stacks p{
+		padding: 0;
+	}
+
+}
+
+
+
+@media(max-width: 500px){
+
+	.divisor img{
+		display: none;
+	}
+
+	.conteudo-slide{
+		text-align: center;
+	}
+
+	.conteudo-slide h1{
+		font-size: 33px;
+		padding: 65px 0 23px 0;
+	}
+
+	.segura div{
+		float: none;
+		width: 100%;
+	}
+
+	.stacks-secundario {
+    	padding: 60px 0 65px 0;
+	}
+
+	.stacks {
+	    padding: 65px 0 77px 0;
+	}
+
+	.web-html{
+		padding: 25px 0 85px 0;
+	}
+
+	.web-wordpress{
+		padding: 25px 0 85px 0;
+	}
+
+	.web-wordpress .texto-introducao {
+    	padding: 44px 10px 55px 10px;
+	}
+
+	.mais-sobre {
+    	padding: 23px 0 65px 0;
+	}
+
+}
+
+
+
+@media(max-width: 400px){
+
+	.conteudo-slide h1 {
+    	font-size: 27px;
+    	padding: 77px 0 23px 0;
+    }	
+
+    h3{
+    	font-size: 25px;
+    }
+
+    p{
+    	font-size: 15px;
+    }
+
+    .stacks {
+    	padding: 55px 0 55px 0;
+	}
+
+    .stacks img{
+    	width: 105px;
+    }
+
+    .stacks-secundario img{
+    	padding: 15px 0 0 0;
+    }
+
+    .web-wordpress .texto-introducao {
+    padding: 44px 10px 88px 10px;
+	}
+
+}
+
+
+
+@media(max-width: 360px){
+
+	.navbar img {
+		width: 150px;
+	}
+
+	h3{
+    	font-size: 22px;
+    }
+
+    p{
+    	font-size: 14px;
+    }
+
+    .sobre-mim p{
+    	text-align: justify;
+    }
+
+    .conteudo-slide h1 {
+    	font-size: 25px;
+    	padding: 44px 0 33px 0;
+    }	
+
+}
+
+@media(max-width: 310px){
+
+	.navbar img {
+		width: 133px;
+	}
+
+	.conteudo-slide h1 {
+    	font-size: 23px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*
+- Conteúdo
+- Curriculum
+*/
+
+
