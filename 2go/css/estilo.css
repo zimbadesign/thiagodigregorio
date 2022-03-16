@@ -1,0 +1,261 @@
+/* CSS - 2GO COMPRAS */
+/* ZIMBA 02/2022 */
+
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+
+
+
+/* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ 
+
+.topo{
+	background-color: #F19000;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+	color: #ffc705;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+	color: #F19000;
+	background-color: #fff;
+	border: 1px solid #fff;
+	padding: 7px 30px 7px 30px;
+	border-radius: 33px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: transparent;
+}
+
+
+
+
+/* APRESENTAÇÃO */ /* APRESENTAÇÃO */ /* APRESENTAÇÃO */ /* APRESENTAÇÃO */ 
+
+
+.apresentacao h2{
+	color: #F19000;
+    font-weight: bold;
+}
+
+.apresentacao h5{
+	color: #706F6F;
+	font-weight: normal;
+}
+
+.apresentacao .linha1{
+	padding: 55px 0;
+}
+
+.apresentacao a{
+	text-decoration: none;
+}
+
+.apresentacao h3{
+	color: #fff;
+	background-color: #D81967;
+	text-align: center;
+	padding: 17px 0;
+	font-size: 17px;
+	font-weight: normal;
+	border: 1px solid #D81967;
+	border-radius: 33px;
+}
+
+.apresentacao h3:hover{
+	background-color: transparent;
+	color: #D81967;
+}
+
+.apresentacao h4{
+	color: #F19000;
+    font-weight: bold;
+}
+
+.apresentacao p{
+	color: #706F6F;
+	margin-bottom: 27px;
+}
+
+.celula-icones .icons{
+	float: left;
+	text-align: center;
+	margin: 0 17px 0 17px;
+}
+
+
+
+
+/* SLIDER PRODUTOS */ /* SLIDER PRODUTOS */ /* SLIDER PRODUTOS */ /* SLIDER PRODUTOS */ 
+
+.slider-produtos{
+	background-image: url(../imgs/slider-secundario.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    margin: 65px 0;
+}
+
+.slider-produtos h2{
+	color: #fff;
+	font-weight: bold;
+}
+
+.slider-produtos h4{
+	 color: #fff;
+	 font-weight: normal;
+}
+
+.slider-produtos a{
+	text-decoration: none;
+}
+
+.slider-produtos h3{
+	background-color: #fff;
+	color: #F19000;
+	font-weight: normal;
+	padding: 19px 0;
+	margin: 37px 0 0 0;
+	border: 1px solid #fff;
+	border-radius: 44px;
+
+	font-size: 21px;
+}
+
+.slider-produtos h3:hover{
+	background-color: transparent;
+	color: #fff;
+}
+
+
+
+/* CONTEUDO FINAL */ /* CONTEUDO FINAL */ /* CONTEUDO FINAL */ /* CONTEUDO FINAL */ 
+
+.conteudo-final .diferente{
+	text-align: right;
+}
+
+.conteudo-final .letras{
+	margin: 60px 0;
+}
+
+.conteudo-final .letras-filho{
+	padding: 33px 0 0 0;
+}
+
+.conteudo-final h2{
+	color: #F19000;
+	font-weight: bold;
+}
+
+.conteudo-final h3{
+	color: #F19000;
+	font-weight: bold;
+}
+
+.conteudo-final h5{
+	color: #706F6F;
+	font-weight: normal;
+}
+
+.conteudo-final p{
+	color: #706F6F;
+	margin-bottom: 44px;
+}
+
+
+
+/*FOOTER */ /*FOOTER */ /*FOOTER */ /*FOOTER */ /*FOOTER */ /*FOOTER */ 
+
+.footer{
+	background-color: #575756;
+	padding: 70px 0 55px 0;
+}
+
+.footer h4{
+	color: #F19000;
+	font-weight: bold;
+	padding: 55px 0 0 0;
+}
+
+.footer h5{
+	color: #fff;
+	font-weight: normal;
+}
+
+.footer .social-icones{
+	padding: 55px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */
+/*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */
+/*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */
+/*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */
+/*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */
+/*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */ /*MIDIAS QUERIES */
+
+
+@media(max-width: 991px){
+
+	.apresentacao{
+		text-align: center;
+	}
+
+	.apresentacao .linha1 img{
+		padding: 33px 0;
+	}
+
+	.apresentacao .linha2 h4{
+		padding: 55px 0 0 0;
+	}
+
+	.apresentacao .linha2 img{
+		padding: 17px 0 0 0;
+	}
+
+	.conteudo-final{
+		text-align: center;
+	}
+
+	.conteudo-final .diferente{
+		text-align: center;
+	}
+
+	.conteudo-final img{
+		padding: 23px 0 0 0;
+	}
+
+	.conteudo-final .letras{
+		margin: 40px 0;
+	}
+
+	.footer{
+		text-align: center;
+		padding: 90px 0 90px 0;
+	}
+}
+
+
