@@ -317,11 +317,11 @@ html{scroll-behavior: smooth;}
 .mais-sobre{
 	background-color: #041027;
 	color: #fff;
-	padding: 65px 0 65px 0;
+	padding: 65px 0 0 0;
 }
 
 .mais-sobre .block{
-	padding: 44px 0 0 0;
+	padding: 0;
 }
 
 .mais-sobre p{
